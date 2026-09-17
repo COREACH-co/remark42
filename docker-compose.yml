@@ -6,7 +6,7 @@ services:
       - REMARK_UR
       - SECRET
       - SITE
-      - AUTH_ANON=${AUTH_ANON:-true}
+      - AUTH_ANON
       - TRUSTED_PROXY=10.0.0.0/8,172.16.0.0/12,192.168.0.0/16
     volumes:
       - remark-data:/srv/var
