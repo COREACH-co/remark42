@@ -3,7 +3,7 @@ services:
     image: ghcr.io/umputun/remark42:v1.17.1
     restart: unless-stopped
     environment:
-      - REMARK_UR
+      - REMARK_URL
       - SECRET
       - SITE
       - AUTH_ANON
